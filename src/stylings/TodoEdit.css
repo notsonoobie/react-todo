@@ -1,0 +1,14 @@
+.TodoEdit{
+    width: 80vw;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    outline: none;
+    border:3px solid silver;
+    padding: 5px 15px;
+    color: slategrey;
+    word-spacing: 6px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylings/TodoList.css';
 
 class TodoList extends Component{
     constructor(props) {
@@ -21,7 +22,7 @@ class TodoList extends Component{
 
     render() {
         return (
-            <li><input onChange={this.handleOnChange} type="checkbox" checked={this.props.completed ? "checked" : false} /> {this.props.title} : {this.props.completed ? 'Done' : 'Not Done'} <button onClick={this.handleEdit}>EDIT</button><button onClick={this.handleDelete}>DELETE</button></li>
+            <li className="TodoList"><input onChange={this.handleOnChange} type="checkbox" checked={this.props.completed ? "checked" : false} /> {this.props.title}<button onClick={this.handleEdit}>EDIT</button><button onClick={this.handleDelete}>DELETE</button></li>
     )
 }
 }

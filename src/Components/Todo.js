@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylings/Todo.css'
 import TodoList from './TodoList';
 import NewTodo from './NewTodo';
 import TodoEdit from './TodoEdit';
@@ -16,7 +17,7 @@ class Todo extends Component{
         return (
             <div className="Todo">
                 <header>
-                    <h1>React Todo</h1>
+                    <h1 className="Todo-header">REACT TODO</h1>
                 </header>
                 <main>
                     <ul>

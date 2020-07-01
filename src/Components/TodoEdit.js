@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylings/TodoEdit.css'
 
 class TodoEdit extends Component {
     constructor(props) {
@@ -17,7 +18,7 @@ class TodoEdit extends Component {
 
     render() {
         return (
-            <input type="text" onKeyUp={this.handleKeyUp} id="editInput" />
+            <input className="TodoEdit" type="text" onKeyUp={this.handleKeyUp} id="editInput" />
         )
     }
 }

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { uuid } from 'uuidv4';
 import Todo from './Components/Todo';
-import './App.css';
+import './stylings/App.css';
 
 var doEdit = null;
 class App extends Component {
@@ -17,7 +17,11 @@ class App extends Component {
     this.clearCheck = this.clearCheck.bind(this);
 
     this.state = {
-      todos: []
+      todos: [{
+        id : uuid(),
+        title: "Do something",
+        completed : false
+      }]
     }
   }
   addTodo(text) {

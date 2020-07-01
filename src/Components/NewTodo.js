@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylings/NewTodo.css';
 
 class NewTodo extends Component{
     constructor(props){
@@ -15,7 +16,7 @@ class NewTodo extends Component{
     }
     render() {
         return (
-            <div>
+            <div className="NewTodo">
                 <input id="input" type="text" />
                 <button type="submit" onClick={this.handleClick}>AddTodo</button>
             </div>

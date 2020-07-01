@@ -1,0 +1,23 @@
+.Todo{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #757575;
+}
+.Todo-header{
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-weight: lighter;
+    font-size: 50px;
+    word-spacing: 10px;
+    letter-spacing: 4px;
+}
+.Todo ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    list-style: none;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    color: #f5f5f5;
+}

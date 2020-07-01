@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import '../stylings/ClearTodo.css';
 
 class ClearTodo extends Component{
     constructor(props) {

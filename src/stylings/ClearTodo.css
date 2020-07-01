@@ -1,0 +1,13 @@
+.ClearTodo button{
+    width: 150px;
+    height: 30px;
+    border: slategrey;
+    border-radius: 3px;
+    letter-spacing: 2px;
+    margin: 0.8rem 0.8rem;
+    text-transform: uppercase;
+}
+.ClearTodo button:hover{
+    cursor: pointer;
+    background-color: snow;
+}
