@@ -17,11 +17,7 @@ class App extends Component {
     this.clearCheck = this.clearCheck.bind(this);
 
     this.state = {
-      todos: [{
-        id : uuid(),
-        title: "Do something",
-        completed : false
-      }]
+      todos: []
     }
   }
   addTodo(text) {
